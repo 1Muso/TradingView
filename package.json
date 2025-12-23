@@ -1,0 +1,14 @@
+{
+  "name": "discord-signals-bot",
+  "version": "1.0.0",
+  "description": "Servicio intermedio para convertir alertas de TradingView a embeds de Discord",
+  "main": "discord-webhook-converter.js",
+  "scripts": {
+    "start": "node discord-webhook-converter.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0"
+  }
+}
+
